@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+/* some custom fonts via google font api */
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight);
+/* content block 1 */
+#mcs_container{
+	position:relative;
+	top:10; 
+	float:left; 
+	width:287px; 
+	height:400px; 
+	border-radius: 0 0 10px 10px;
+ 	behavior:url(css/PIE.htc);
+	position:relative; 
+	padding-bottom:20px; 
+	}
+
+#mcs_container .customScrollBox {
+    height: 90%;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+}
+#mcs_container .customScrollBox .container{
+	position:relative; 
+	width:90%; 
+	top:0px;  
+	float:left;
+	}
+#mcs_container .customScrollBox .content{
+	clear:both;
+	}
+#mcs_container .dragger_container {
+    background:#AAAAAA;
+    border-radius: 2px;
+    cursor: s-resize;
+    float: left;
+    height: 313px;
+    margin: 15px 0 0 16px;
+    position: relative;
+    width: 5px;
+}
+#mcs_container .dragger{
+	position:absolute; 
+	width:5px; 
+	height:60px; 
+	background:#50BF82; 
+	text-align:center; 
+	line-height:60px; 
+	color:#ffffff; 
+	overflow:hidden; 
+	cursor:pointer; 
+	-moz-border-radius:2px; 
+	-khtml-border-radius:2px; 
+	-webkit-border-radius:2px; 
+	border-radius:2px;
+	}
+#mcs_container .dragger_pressed{
+	position:absolute; 
+	width:4px; 
+	margin-left:-1px; 
+	height:60px; 
+	background:#999; 
+	text-align:center; 
+	line-height:60px; 
+	color:#666; 
+	overflow:hidden; 
+	-moz-border-radius:4px; 
+	-khtml-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	border-radius:4px; 
+	cursor:s-resize;
+	}
+#mcs_container .scrollUpBtn,#mcs_container .scrollDownBtn{
+	position:absolute; 
+	display:inline-block; 
+	width:14px; 
+	height:15px; 
+	margin-right:3px; 
+	text-decoration:none; 
+	right:0; 
+	}
+#mcs_container .scrollUpBtn{
+	top:0px;  
+	background:url(../images/mcs_btnUp.png) center center no-repeat;
+	}
+#mcs_container .scrollDownBtn{
+	bottom:0px;  
+	background:url(../images/mcs_btnDown.png) center center no-repeat;
+	}
+	
+
+
+
+
+
+
+
+
+#mcs_container1{
+	position:relative;
+	top:10; 
+	float:left; 
+	width:287px; 
+	height:400px; 
+	border-radius: 0 0 10px 10px;
+ 	behavior:url(css/PIE.htc);
+	position:relative; 
+	padding-bottom:20px; 
+	}
+
+#mcs_container1 .customScrollBox1 {
+    height: 90%;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+}
+#mcs_container1 .customScrollBox1 .container1{
+	position:relative; 
+	width:90%; 
+	top:0px;  
+	float:left;
+	}
+#mcs_container1 .customScrollBox1 .content1{
+	clear:both;
+	}
+#mcs_container1 .dragger_container1{
+    background:#AAAAAA;
+    border-radius: 2px;
+    cursor: s-resize;
+    float: left;
+    height: 313px;
+    margin: 15px 0 0 16px;
+    position: relative;
+    width: 5px;
+}
+#mcs_container1 .dragger1{
+	position:absolute; 
+	width:5px; 
+	height:60px; 
+	background:#50BF82; 
+	text-align:center; 
+	line-height:60px; 
+	color:#ffffff; 
+	overflow:hidden; 
+	cursor:pointer; 
+	-moz-border-radius:2px; 
+	-khtml-border-radius:2px; 
+	-webkit-border-radius:2px; 
+	border-radius:2px;
+	}
+#mcs_container1 .dragger_pressed1{
+	position:absolute; 
+	width:4px; 
+	margin-left:-1px; 
+	height:60px; 
+	background:#999; 
+	text-align:center; 
+	line-height:60px; 
+	color:#666; 
+	overflow:hidden; 
+	-moz-border-radius:4px; 
+	-khtml-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	border-radius:4px; 
+	cursor:s-resize;
+	}
+#mcs_container1 .scrollUpBtn1,#mcs_container1 .scrollDownBtn1{
+	position:absolute; 
+	display:inline-block; 
+	width:14px; 
+	height:15px; 
+	margin-right:3px; 
+	text-decoration:none; 
+	right:0; 
+	}
+#mcs_container1 .scrollUpBtn1{
+	top:0px;  
+	background:url(../images/mcs_btnUp.png) center center no-repeat;
+	}
+#mcs_container1 .scrollDownBtn1{
+	bottom:0px;  
+	background:url(../images/mcs_btnDown.png) center center no-repeat;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

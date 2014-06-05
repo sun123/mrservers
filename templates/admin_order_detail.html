@@ -1,0 +1,95 @@
+<html>
+	<head>
+	<title>Admin Order Details</title>
+     <style>
+     .tbl tr td,  .tbl tr th  {
+          border:1px solid #F5F5F5;
+     }
+     </style>
+	</head>
+	<body style='margin: 10px; font-family:arial; '>
+	
+	<table  style='padding: 5px; background: none repeat scroll 0 0 hsl(18, 90%, 88%); width: 800px; border-radius: 10px; '>
+	<tr><td colspan="2" ><img src='[IMAGE_PATH]'></td></tr>
+	
+	<tr><td>
+
+		<table  style='padding: 5px; width: 100%; background: none repeat scroll 0 0 hsl(18, 90%, 88%);margin:auto; font-family: Arial, Helvetica, sans-serif; font-size: 13px;'>
+		<tr><td>
+
+		<table width="100%"  style='font-family: Arial, Helvetica, sans-serif; font-size: 13px;'>
+		
+		<tr>
+		<p style="width:100%;font-size: 20px;"> Order Information:</p> 
+		<p style="width:100%;font-size: 13px;">Dear Admin, </p>
+		<p style='text-indent:40px;text-align:justify;'>Please See following Order Detail : </p>
+		</tr>
+		<tr>
+		<td valign="top" style="padding-left: 50px; width:150px"><strong>Order Id</strong></td>
+		<td align='60%' style="color:#0D4480;"><strong>[ORDERID]</strong></td>
+		</tr>
+		
+		<tr>
+		<td valign="top" style="padding-left: 50px; width:150px"><strong>Name</strong></td>
+		<td align='60%' style="color:#0D4480;"><strong>[NAME]</strong></td>
+		</tr>
+		
+		<tr>
+		<td valign="top" style="padding-left: 50px;"><strong>Shipping Email</strong></td>
+		<td align='60%' style="color:#0D4480;"><strong>[EMAIL]</strong></td>
+		</tr>
+		
+		</table>
+		<h3 >Order Details :</h3>
+		<div style="padding:5px;line-height:10px;">
+		 <table width="100%" class="tbl" cellspacing="0" cellpadding="0" style=" border-collapse: collapse;float: left;font-size: 15px;margin: 20px 0 0;width: 100%; border:1px solid #F5F5F5;">
+					 <tr style="background:#81CFD1;height: 40px;border:1px solid #F5F5F5;">
+						<th  >Sr. No</th>
+					   <th  >Product Image</th>
+					   <th  >Product Name</th>
+					   <th  >Qty</th>
+					   <th  >Price (in [CURRENCY] )</th>
+					
+					 </tr>	
+					[desc]	
+					 
+					 </table>
+			</div>		
+			<br/>
+			<br/>
+			<br/>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:right; font-size:16px; "><p style="margin-right:10px"><b>Sub Total : [CURRENCY][sub_total]</b></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:right; font-size:16px; "><p style="margin-right:10px"><b>Postal  Charge : [CURRENCY][postal_charge]</b></p>
+			</td>
+		</tr>	
+		<tr>
+			<td style="text-align:right; font-size:16px; "><p style="margin-right:10px"><b>Order Express : [CURRENCY][order_express]</b></p>
+			</td>
+		</tr>	
+		<tr>
+			<td style="text-align:right; font-size:16px; "><p style="margin-right:10px"><b>Total : [CURRENCY][total]</b></p>
+			</td>
+		</tr>			
+		<tr>
+		<td>
+		<p style=' margin: 40px 0 10px 10px; color:#0D4480;'> Thank You, <br/><br/>
+		Support Team </p>
+			
+		</td></tr></table>
+
+	</td></tr>
+
+	<tr>
+	<td style='color: #0D4480; font-size:10px; margin-top: 10px; padding: 8px 30px 5px 100px; width: 500px; text-align:center'>
+	
+	</td></tr>
+	</table>
+
+	</body>
+</html> 
